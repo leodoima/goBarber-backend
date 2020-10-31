@@ -12,8 +12,9 @@ Aplicação de reservas para serviços de barbearia desenvolvido em NodeJS
 
 ### Sobre
 
-Esta aplicaço correste à parte do servidor da aplicaço de controle para serviços de barbearia. Trata-se de uma API de agendamentos, para qual faremos conexão 
-utilizando os projetos desenovolvidos em <a href="https://github.com/leodoima/goBarber-frontend">ReactJS</a> e React Native.
+Esta aplicação tem como principal objetivo auxiliar no processo de agendamento de serviços de barbearia. O desenvolvimento da API fora realizado utilizando
+<a href="https://github.com/leodoima/goBarber-backend">NodeJS</a> como parte do back-end, partindo para as conexões 
+<a href="https://github.com/leodoima/goBarber-frontend">ReactJS</a> no modelo web e React Native para mobile.
 
 
 ### Tecnologias
@@ -26,9 +27,29 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Docker](https://www.docker.com/)
 - [TypeORM](https://typeorm.io/)
 
-### Rodando o Back End (servidor)
+
+### Rodando aplicação
 
 ```bash
+# Clone do repositório back-frontend
+$ git clone https://github.com/leodoima/goBarber-frontend.git
+
+# Acesse a pasta do projeto
+$ cd goBarber-frontend
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação
+$ yarn start
+
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+
+
+
+# ---
+# Para trabalhos com o back-end da aplicação
+
 # Clone do repositório
 $ git clone https://github.com/leodoima/goBarber-backend.git
 
@@ -42,3 +63,4 @@ $ yarn start
 $ yarn dev:server
 
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
+```
