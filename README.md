@@ -2,7 +2,7 @@
 Aplicação de reservas para serviços de barbearia desenvolvido em NodeJS
 
 <h1>
-  <img width="500px" height="300px" src="/assets/gobarber-login.gif" />
+  <img src="/assets/gobarber-login.gif" />
 </h1>
 
 <h4 align="center"> 
